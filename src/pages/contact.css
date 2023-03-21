@@ -1,0 +1,19 @@
+input,textarea{
+    border: none;
+    border-bottom: 1px solid #F5E9E2;
+    width: 60vw;
+}
+textarea:focus, input:focus{
+    outline: none;
+}.submit{
+    background-color: #D44D5C;
+    color: #F5E9E2;
+    padding: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width:fit-content;
+    margin: auto;
+}

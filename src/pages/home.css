@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+.big-text{
+    color: #FF6884;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.small-text{
+    color: #F5E9E2;
+    font-size: 1.3rem;
+}
+.text{
+    line-height: 2;
+}
+.alink:hover{
+    background-color: #D44D5C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cta{
+    background-color: #D44D5C;
+    padding: 3px;
+    border-radius: 5px;
+    color: #F5E9E2;
+    font-weight: 600;
+    padding: .5rem;
+    margin-top: .2rem;
+}
+.cta-a:hover{
+    color: #F5E9E2;
+
+}

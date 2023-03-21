@@ -1,0 +1,47 @@
+.project{
+    background-color: #F5E9E2;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-bottom: 1rem;
+    color: #0B0014;
+}
+.github:hover{
+    padding: .2rem;
+}
+
+
+.project:hover {
+    opacity: 0.6;
+    transition: 100ms ease-in-out;
+    padding: 1rem;
+    -webkit-transition: 100ms ease-in-out;
+    -moz-transition: 100ms ease-in-out;
+    -ms-transition: 100ms ease-in-out;
+    -o-transition: 100ms ease-in-out;
+}
+
+span{
+    font-size: .8rem;
+    background-color: #D44D5C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: .2rem .5rem;
+    font-weight: 600;
+    color: #F5E9E2;
+}
+    @media (max-width: 640px) {
+    h3{
+        font-size: 1.2rem/* 24px */;
+        line-height: 2rem/* 32px */;
+    }
+    .overlay{
+    width: 300px;
+    height: 120px;
+}
+}

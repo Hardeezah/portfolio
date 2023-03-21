@@ -1,0 +1,67 @@
+h1{
+    color: #D44D5C;
+    font-family: Luckiest Guy, cursive;
+}
+.active{
+    color: #D44D5C;
+    border-bottom: 1px solid #D44D5C;
+}
+a{
+    opacity: .8;
+}
+li:hover{
+    color: #D44D5C;
+}
+ul{
+    font-size: 1.2rem;
+}
+li{
+    padding: .6rem 0;
+}
+li:hover{
+    color: #D44D5C;
+    border-bottom: 1px solid #D44D5C;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.menu{
+    display: none;
+}.nav-link{
+         display: flex;
+     text-align: center;
+     justify-content: center;
+     gap: 1.5rem;
+     margin-top: 1.25rem;
+
+}
+.mobile{
+     font-size: 1rem;
+     flex-direction: column;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     gap: 1.5rem;
+     margin-top: 1.25rem;
+     border-bottom: none;
+        
+}
+@media (max-width: 640px) {
+    .nav-link{
+        display: none;
+    }
+    .active{
+        border-bottom: none;
+    }li:hover{
+        border-bottom: none;
+    }
+    .con{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}

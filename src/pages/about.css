@@ -1,0 +1,63 @@
+.skills{
+    color: #D44D5C;
+
+}.skill-bars{
+    
+}
+.skill{
+    height: 3px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #F5E9E2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.inner{
+    background-color: #D44D5C;
+    height: 3px;
+}
+.firebase{
+    width: 60%;
+}
+.react{
+    width: 75%;
+}
+.css{
+    width: 90%;
+}.api{
+    width: 70%;
+}
+.inner-text{
+    color: #D44D5C;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.b-cv{
+    background-color: #F5E9E2;
+    color: #D44D5C;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 1rem;
+}.b-cv a{
+    font-weight: 600;
+}.b-cv:hover{
+    background-color: #D44D5C;
+    color: #F5E9E2;
+    padding: .9rem 1rem;
+    transition:500ms ease-in-out;
+    -webkit-transition:500ms ease-in-out;
+    -moz-transition:500ms ease-in-out;
+    -ms-transition:500ms ease-in-out;
+    -o-transition:500ms ease-in-out;
+}
+@media (max-width: 640px) {
+    .inner-text{
+        font-size: .9rem;
+    }
+}
