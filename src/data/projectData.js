@@ -44,13 +44,13 @@ export const projectData = [
     link:"https://mytodo-dee.netlify.app/",
     sourceCode:"https://github.com/Hardeezah/to-do"
 },{
-    id: 5,
-    image: proFive,
-    title:"Resturant Website",
-    tagOne:"HTML",
-    tagTwo:"JS",
-    tagThree:"CSS",
-    link:"https://joyful-raindrop-41ea2b.netlify.app",
-    sourceCode:"https://github.com/Hardeezah/resturant"
+    id: 6,
+    image: proSix,
+    title:"Open AI GPT summarizer",
+    tagOne:"React",
+    tagTwo:"Redux toolkit",
+    tagThree:"Material UI",
+    link:"https://sumr-open-ai-summariser.netlify.app/",
+    sourceCode:"https://github.com/Hardeezah/openai-summarizer"
 }
 ]
